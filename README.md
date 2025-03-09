@@ -56,13 +56,5 @@ Update the database connection settings (database name, username, password) to m
 
 Open your browser and go to http://localhost/Jobsite/ to start using the platform.
 
-Contributing
-
-Contributions are welcome! Feel free to submit issues and pull requests to improve the system.
-
-License
-
-This project is licensed under the MIT License.
-
 For more details, visit the repository: https://github.com/Mazen-Azhary/Jobsite.
 
