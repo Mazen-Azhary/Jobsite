@@ -176,7 +176,7 @@ if ($user->role=='Superadmin' or $user->role=='superadmin') {
           if (!empty($_GET["msg"]) && $_GET["msg"] == 'done') {
             ?>
             <div class="alert alert-success" role="alert">
-              <strong>Alert</strong> done
+              <strong>Success</strong> done
             </div>
           <?php
           }

@@ -1,6 +1,7 @@
 <?php
 require_once("navbar.php");
 ?>
+
 <body>
   <style>
     *{
@@ -55,11 +56,15 @@ color: white;
             </div>
             <div class="user-box">
               
-            user
+            
     <input type="radio" name="role" required="TRUE" value="User" style="color: white;" checked>
-    <input type="radio" name="role" required="TRUE" value="recruiter" style="color:white;">recruiter
+    <input type="radio" name="role" required="TRUE" value="recruiter" style="color:white;">
 </div>
-
+<div class="labelsDataForm" style="display: flex;flex-direction:column;margin-top:-100px">
+  <label>User</label>
+  <br>
+  <label>Recruiter</label>
+</div>
 
             <input type="submit" value="Submit">
         </form>
