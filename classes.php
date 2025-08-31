@@ -74,7 +74,7 @@ function apply_for_job($user_id,$job_id,$recruiter_id){
     $result=mysqli_query($connection,$qry);
     mysqli_close($connection);
 }
-//apply this to home button 
+
 
 
 function see_your_apps($user_id) {
@@ -221,7 +221,7 @@ class Superadmin extends recruiter{
         // Temporarily disable foreign key checks
         mysqli_query($connection, "SET FOREIGN_KEY_CHECKS=0");
     
-        // Use proper escaping to prevent SQL injection
+      
         $id = mysqli_real_escape_string($connection, $id);
         $username = mysqli_real_escape_string($connection, $username);
     
